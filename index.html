@@ -1,1 +1,445 @@
 
+<!DOCTYPE html>
+<html>
+<title>Go Go Parents!</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+<body class="w3-yellow w3-content" style="max-width:1600px">
+
+
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="image/logos.jpg" style="width:45%;" class="w3-round"><br><br>
+    <h4><b>Go Go Parents</b></h4>
+    <p class="w3-text-grey">Specialized for preschoolers</p>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#home" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-amber"><i class="fa fa-th-large fa-fw w3-margin-right"></i>H O M E</a> 
+    <a href="#news" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-orange"><i class="fa fa-th-large fa-fw w3-margin-right"></i>N E W S</a>
+    <a href="#craft" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-deep-orange"><i class="fa fa-th-large fa-fw w3-margin-right"></i>C R A F T</a>
+    <a href="#entertainment" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-red"><i class="fa fa-th-large fa-fw w3-margin-right"></i>E N T E R T A I N M E N T</a>
+    <a href="#storybooth" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-light-green"><i class="fa fa-th-large fa-fw w3-margin-right"></i>S T O R Y B O O T H</a>
+    <a href="#recipes" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-cyan"><i class="fa fa-th-large fa-fw w3-margin-right"></i>R E C I P E S</a>
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-purple"><i class="fa fa-envelope fa-fw w3-margin-right"></i>D E V E L O P E R</a>
+  </div>
+
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+
+
+
+
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Header -->
+  <header id="home">
+    <a href="home"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+<style>
+body {
+  background-color: black;
+  font-family: cursive;
+}
+
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #ffa500, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #ffa500, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ffa500, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+</style>
+</head>
+<body>
+
+<h1 class="glow">About us</h1>
+<p><center>This website  will be a guide to the parents on raising  preschoolers. We know raising preschoolers can be tough, that is why we take you here! Parents can stay alert on current news regarding the preschoolers, or maybe making an interesting craft with them? Doesn't have any ideas on what movies you can watch together? You're out of ideas on a good storybook to share with them? Or maybe, doesn't have any ideas for snacking? Everything you need is here, you're welcome to explore Go Go Parents! </center></p>
+
+  
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="image/news.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b><center>News</center></b></p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="image/art.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b><center>Crafty</center></b></p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="image/recipe.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b><center>Recipes</center></b></p>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+   
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      	<center><img src="image/ent.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity"></center>
+      <div class="w3-container w3-white">
+        <p><b><center>Entertainment</center></b></p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <center><img src="image/story.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity"></center>
+      <div class="w3-container w3-white">
+        <p><b><center>Storybooth</center></b></p>
+      </div>
+    </div>
+      </div>
+    </div>
+  </div>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+<!-- CONTENT 2 -->
+<header id="news">
+<a href="news"></a>
+<header id="news">
+    <a href="news"></a>
+  <div class="w3-container w3-padding-large w3-khaki">
+    <h4 id="news"><b><center>What is on the news today?</center></b></h4>
+<center>Parents should be aware of current issues and news regarding kids so that they can stay alert while taking care of them.</center>
+    <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+<br>
+<br>
+<br>
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="image/ks.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Kids with stress during lockdown?</b></p>
+<div class="w3-container">
+        <p>During the lockdown, we as an adult know the feel of boredom.
+We can move outside the house, need to keep distance with other people and even work from home.
+But what about the kids? They easily get bored more than us, at the end they will get stress, anxiety and not to say, depression. 
+This article shows that many children that reported having this kind of mental illness.</p>
+<a href="https://www.independent.co.uk/life-style/health-and-families/lockdown-children-mental-health-depression-anxiety-loneliness-study-university-bath-a9541801.html" 
+target="_blank" class="w3-btn w3-light-blue">Full article</a>
+</div>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="image/kc.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Coronavirus VS Children</b></p>
+<div class="w3-container">
+        <p>Coronavirus VS Children, the dangerous and cruel killer all over the world could harm the kids at anytime and anywhere. 
+It is because they keep in touch with anything around them and spread the virus. 
+Study says, they could easily get affected yet hard for them to near death. 
+How to avoid them from spreading the killer virus? Click the link below, to know more. 
+</p>
+<a href="https://www.washingtonpost.com/health/children-are-only-half-as-likely-to-get-infected-by-the-coronavirus-research-shows/2020/06/16/be86aff4-afb6-11ea-856d-5054296735e5_story.html" 
+target="_blank" class="w3-btn w3-light-green">Full article</a>
+</div>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="image/sk.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>The school has begin?</b></p>
+        <p>It all began when the virus spread in Malaysia, all the schools have been closed due to the increased number of people getting infected.After 3 months, with all the hard work from teachers and students doing the Online Learning, 
+Malaysia now in the recovery stages where everything is slowly turning normal and KPM decided to reopen the primary school, high-school and etc.Is it true?How can the children maintain their safety?
+</p>
+<a href="https://www.straitstimes.com/asia/se-asia/malaysia-to-reopen-schools-in-stages-from-june-24" 
+target="_blank" class="w3-btn w3-pink">Full article</a>
+</div>
+    </div>
+    </div>
+  </header>
+
+
+
+
+<!-- CONTENT 3 craft -->
+<header id="craft">
+    <a href="craft"></a>
+  <div class="w3-container w3-padding-large w3-amber">
+    <h4 id="craft"><b><center>Lets get crafty with Origami!</center></b></h4>
+<center>This is the simple and easy Origami, for parent and kids. Parent can spend their precious time toghether with their kids. Their will be more upcoming craft, Have fun!</center>
+    <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+<br>
+<br>
+<br>
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="image/kupu.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Butterfly Origami</b></p>
+<div class="w3-container">
+  <a href="pdf/but.pdf" class="w3-btn w3-yellow">View tutorial</a>
+</div>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="image/arnab.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Rabbit Origami</b></p>
+<div class="w3-container">
+  <a href="pdf/rab.pdf" class="w3-btn w3-lime">View tutorial</a>
+</div>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="image/ikan.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Fish Origami</b></p>
+<div class="w3-container">
+  <a href="pdf/fish.pdf" class="w3-btn w3-light-blue">View tutorial</a>
+</div>
+    </div>
+    </div>
+  </header>
+
+
+
+
+
+
+<!-- CONTENT 4 entertainment -->
+<header id="entertainment">
+    <a href="entertainment"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-black" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container" w3-khaki>
+    <center><h1><b>Movies and  song suggestion!</b></h1></center>
+<center>Children enjoys listening to songs and watching movies! Besides, song and movies is an interactive way that children can use as learning purpose! Below are few recommendation of songs and movies that are suitable for preschoolers. Parents can watch this together with their children, it's gonna be FUN!</center>
+    </div>
+  </header>
+
+<div class="w3-panel w3-lime">
+  <h1 class="w3-text-white" style="text-shadow:1px 1px 0 #200">
+  <b><center>Song suggestion!</center></b></h1>
+</div>
+
+<center><iframe width="300" height="200" src="https://www.youtube.com/embed/zNHFU5ZjfLU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="300" height="200" src="https://www.youtube.com/embed/F4tHL8reNCs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="300" height="200" src="https://www.youtube.com/embed/G6k7dChBaJ8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+<br>
+<br>
+<div class="w3-panel w3-lime">
+  <h1 class="w3-text-white" style="text-shadow:1px 1px 0 #444">
+  <b><center>Movies suggestion!</center></b></h1>
+</div>
+
+<center><iframe width="300" height="200" src="https://www.youtube.com/embed/RYHBD9RF2dk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="300" height="200" src="https://www.youtube.com/embed/Rvr68u6k5sI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="300" height="200" src="https://www.youtube.com/embed/seMwpP0yeu4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<!-- CONTENT 3 storybooth -->
+<header id="storybooth">
+    <a href="storybooth"></a>
+  <div class="w3-container w3-padding-large w3-khaki">
+    <h4 id="storybooth"><b><center>Story session!</center></b></h4>
+<center>Children loves story! Whether it is fantasy, religious nor horror story! Parents can share these stories as their bedtime stories. Besides, storybook can also helps parent and children to bonding. Storybooks also contains tales and moral value that will be very beneficial to the children!</center>
+    <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+<br>
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="image/rum.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>RUMPELSTILTSKIN STORY</b></p>
+  <p>In the castle lived a Queen. A greedy, beastly woman loathed by her entire kingdom. This should not come as a surprise as she cared only for one thing—her precious gold. 
+But one day, her gold is gone and she can't believe it. How does she get the gold back? And who is rumplestiltskin? </p>
+<div class="w3-container">
+<a href="https://sooperbooks.com/story/rumpelstiltskin-story/" 
+target="_blank" class="w3-btn w3-orange">Access full story</a>
+
+</div>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="image/han.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>HANSEL AND GRETEL STORY</b></p>
+<p>A boy and a girl that lived in the cottage with their poor father and devilish stepmother. One day,
+‘Tomorrow morning,’ said the stepmother, ‘I will take the children deep into the wood—into the very thickest part—and leave them there for the wolves. What will happen to them?
+<div class="w3-container">
+<a href="https://sooperbooks.com/story/hansel-and-gretel-2/" 
+target="_blank"class="w3-btn w3-indigo">Access full story</a>
+</div>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="image/wolf.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>THE WOLF AND THE SEVEN KIDS STORY</b></p>
+  <p>An old mother goat lived happily in the cottage with her seven precious little kids. The mother goat says she wants to go out to run some errands. 
+After thirty minutes, there came a knock at the door.
+"We will not open the door, you're not our mother!Be gone! Be gone!’
+<br>
+
+<div class="w3-container">
+<a href="https://sooperbooks.com/story/the-wolf-and-the-seven-kids-story/" target="_blank" class="w3-btn w3-light-blue">Access full story</a>
+</div>
+    </div>
+    </div>
+  </header>
+
+
+
+
+<!-- CONTENT 7 recipe -->
+<header id="recipes">
+    <a href="recipes"></a>
+  <div class="w3-container w3-padding-large w3-amber">
+    <h4 id="recipes"><b>Simple Snacking Recipes!</b></h4>
+This snacking recipes is very enjoyable to be eaten and make together with the kids! Kids will love it because its sweets and tasty. But remember, its only for snacking, not for everyday meal. For the better use, parents can definitely download the recipe for free by clicking the button on each recipes. Have fun!
+    <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="image/caramel.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Caramelized bread</b></p>
+        <p>The taste of it is very scrumptious and addictive. Can also be eaten while watching movie, can replace popcorn! The crunchiness of the bread will make kids go crazy. Besides, it is really easy to make with only 3 ingredients! </p>
+<div class="w3-container">
+  <a href="pdf/caramel.pdf" class="w3-btn w3-yellow">View recipes</a>
+</div>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="image/a.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Choco Mallow</b></p>
+        <p>Nobody can say 'NO' to marshmallow especially when we mix it up with chocolate! Very recommended for your sweet tooth childrens as well! The aesthetic look of the snack will increase children's appetite, not gonna lie :P.</p>
+<div class="w3-container">
+  <a href="pdf/chocolate.pdf" class="w3-btn w3-lime">View recipes</a>
+</div>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="image/ice.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Poppy Popsicles</b></p>
+        <p>Who doesn't love ice cream right? Everyone would go crazy for it especially children! This popsicle is made of healthy yogurt and very recommended because it is rich in flavour. It taste sweet and sour at the same time!</p>
+<div class="w3-container">
+  <a href="pdf/Popsicle.pdf" class="w3-btn w3-light-blue">View recipes</a>
+</div>
+    </div>
+    </div>
+  </header>
+
+
+
+
+
+
+<!-- CONTENT 7  -->
+<br>
+<br>
+<header id="about">
+    <a href="about"></a>
+  <div class="w3-container w3-padding-large w3-yellow">
+    <center><h4 id="about"><b>Developer's Info</b></h4></center>
+<center>We are the developer of GoGoParents website. We hope that our website will be beneficial to all of our visitors. We will ensure to keep updating on our website. Thankyou!</center>
+    <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+<br>
+<br>
+<br>
+<br>
+<style>
+div.gallery {
+  margin: 5px;
+  border: 1px solid #fff;
+  float: left;
+  width: 240px;
+}
+
+div.gallery:hover {
+  border: 1px solid #fff;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="gallery">
+  <a target="_blank" href="image/10.jpg">
+    <img src="image/10.jpg" alt="Cinque Terre" width="600" height="400">
+  </a>
+  <div class="desc">My name is Nurul Najiha binti Othman (2018225414). I am the project manager for this website.</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="image/20.jpg">
+    <img src="image/20.jpg" alt="Forest" width="600" height="400">
+  </a>
+  <div class="desc">My name is Nur Syahrain binti Azman (2018683396). I act as the designer for this website.</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="image/30.jpg">
+    <img src="image/30.jpg" alt="Northern Lights" width="600" height="400">
+  </a>
+  <div class="desc">My name is Maizatul Akma binti Mohd Rusdi (2018682824). I'm the main programmer here.</div>
+</div>
+
+
+
+
+</body>
+</html>
